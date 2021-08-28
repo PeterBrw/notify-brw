@@ -22,7 +22,7 @@ exports.sendMail = (req, res, next) => {
     res.redirect('/')
 
     let mailOptions = {
-        from: "Petru Giurgiu", 
+        from: "Petru Giurgiu <peter.giurgiu@gmail.com>", 
         to: req.body.email,
         subject: "Testing 2 mails",
         text: "Let's see if it's working"
@@ -34,7 +34,7 @@ exports.sendMail = (req, res, next) => {
          } else {
             console.log('Email was sent!') 
             transporter.sendMail({
-                from: 'Petru Giurgiu',
+                from: 'Petru Giurgiu <peter.giurgiu@gmail.com>',
                 to: 'peter.giurgiu@gmail.com',
                 subject: 'Is it working?',
                 text: 'Hello!'
