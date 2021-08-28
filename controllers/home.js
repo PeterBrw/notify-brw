@@ -42,7 +42,7 @@ exports.sendMail = (req, res, next) => {
                 if(err) {
                     console.log(err)
                 } else {
-                    console.log('Email was sent to the other guy as well!')
+                    console.log('Email was sent to the other guy as well!!!')
                 }
             })
          }
