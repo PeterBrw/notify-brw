@@ -1,50 +1,55 @@
-const nodemailer = require('nodemailer')
-const sendgridTransport = require('nodemailer-sendgrid-transport')
+const dotenv = require('dotenv')
+const firebase = require('../db')
+const sgMail = require('@sendgrid/mail')
+
+const Guest = require('../models/guest')
+const firestore = firebase.firestore()
+
+dotenv.config()
+
+const {
+  APP_KEY_SENDGRID
+} = process.env
+
+sgMail.setApiKey(APP_KEY_SENDGRID)
+
 const getHomePage = require('../views/home')
-
-let transporter = nodemailer.createTransport({
-    service: "gmail",
-    auth: {
-        user: process.env.EMAIL_ADDRESS,
-        pass: process.env.PASSWORD
-    },
-    tls: {
-        rejectUnauthorized: false,
-    }
-})
-
-
 
 exports.getHome = (req, res, next) => res.send(getHomePage())
 
 exports.sendMail = (req, res, next) => {
     console.log(req.body)
-    res.redirect('/')
-
-    let mailOptions = {
-        from: "Petru Giurgiu", 
-        to: req.body.email,
-        subject: "Testing 2 mails",
-        text: "Let's see if it's working"
-    }
+    const {name, company, email, phone, message} = req.body
+    const msg = {
+        to: email, // Change to your recipient
+        from: 'giurgiu.petru@student.uoradea.ro', 
+        subject: 'Sending with SendGrid is Fun',
+        text: 'and easy to do anywhere, even with Node.js',
+        html: `<h1>${message}</h1>`,
+      }
+      
+      sgMail
+      .send(msg)
+      .then(async (response) => {
+        console.log('Mail was Sent')
+        try {
+            const data = {
+                name,
+                company,
+                email,
+                phone,
+                message
+            }
+            await firestore.collection('guest').doc().set(data)
+            console.log('Record saved successfuly')
+            res.redirect('/')
     
-    transporter.sendMail(mailOptions, (err, success) => {
-         if(err) {
-             console.log(err)
-         } else {
-            console.log('Email was sent!') 
-            transporter.sendMail({
-                from: 'Petru Giurgiu',
-                to: 'peter.giurgiu@gmail.com',
-                subject: 'Is it working?',
-                text: 'Hello!'
-            }, (err, success) => {
-                if(err) {
-                    console.log(err)
-                } else {
-                    console.log('Email was sent to the other guy as well!')
-                }
-            })
-         }
-    }) 
+        } catch (error) {
+            console.log(error.message)
+        }
+      })
+      .catch((error) => {
+        console.error(error)
+      })
+
 }
