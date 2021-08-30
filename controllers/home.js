@@ -22,7 +22,7 @@ exports.sendMail = (req, res, next) => {
     const {name, company, email, phone, message} = req.body
     const msg = {
         to: email, // Change to your recipient
-        from: 'info@brwxyz.com', 
+        from: 'peter.giurgiu@gmail.com', 
         subject: 'Sending with SendGrid is Fun',
         text: 'and easy to do anywhere, even with Node.js',
         html: `<h1>${message}</h1>`,
