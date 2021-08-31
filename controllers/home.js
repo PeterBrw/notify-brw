@@ -42,6 +42,25 @@ exports.sendMail = (req, res, next) => {
             }
             await firestore.collection('guest').doc().set(data)
             console.log('Record saved successfuly')
+
+            const msgToMyself = {
+              to: 'peter.giurgiu@gmail.com', // Change to your recipient
+              from: 'contact@brwinc.xyz', 
+              subject: `${name} just sign for....`,
+              text: 'and easy to do anywhere, even with Node.js',
+              html: `<h1>${email}</h1>`,
+            }
+            
+            sgMail
+            .send(msg)
+            .then(async (response) => {
+              console.log('Mail was sent to you!')
+              
+            })
+            .catch((error) => {
+              console.error(error)
+            })
+
             res.redirect('/')
     
         } catch (error) {
