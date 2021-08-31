@@ -52,7 +52,7 @@ exports.sendMail = (req, res, next) => {
             }
             
             sgMail
-            .send(msg)
+            .send(msgToMyself)
             .then(async (response) => {
               console.log('Mail was sent to you!')
               
