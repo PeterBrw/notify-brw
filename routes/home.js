@@ -8,4 +8,6 @@ router.get('/', controller.getHome)
 
 router.post('/send', controller.sendMail)
 
+router.get('/thankyou', controller.getThankYou)
+
 module.exports = router;
