@@ -1,37 +1,254 @@
 const getEmailTemplate = () => `
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html style="width:100%;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0;"><head><meta charset="UTF-8"><meta content="width=device-width, initial-scale=1" name="viewport"><meta name="x-apple-disable-message-reformatting"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta content="telephone=no" name="format-detection"><title>New email template 2019-11-28</title> <!--[if (mso 16)]><style type="text/css">    a {text-decoration: none;}    </style><![endif]--> <!--[if gte mso 9]><style>sup { font-size: 100% !important; }</style><![endif]--> <!--[if !mso]><!-- --><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet"> <!--<![endif]--><style type="text/css">
-@media only screen and (max-width:600px) {p, ul li, ol li, a { font-size:14px!important; line-height:150%!important } h1 { font-size:28px!important; text-align:center; line-height:120%!important } h2 { font-size:26px!important; text-align:center; line-height:120%!important } h3 { font-size:20px!important; text-align:center; line-height:120%!important } h1 a { font-size:28px!important } h2 a { font-size:26px!important } h3 a { font-size:20px!important } .es-menu td a { font-size:12px!important } .es-header-body p, .es-header-body ul li, .es-header-body ol li, .es-header-body a { font-size:12px!important } .es-footer-body p, .es-footer-body ul li, .es-footer-body ol li, .es-footer-body a { font-size:14px!important } .es-infoblock p, .es-infoblock ul li, .es-infoblock ol li, .es-infoblock a { font-size:11px!important } *[class="gmail-fix"] { display:none!important } .es-m-txt-c, .es-m-txt-c h1, .es-m-txt-c h2, .es-m-txt-c h3 { 
-text-align:center!important } .es-m-txt-r, .es-m-txt-r h1, .es-m-txt-r h2, .es-m-txt-r h3 { text-align:right!important } .es-m-txt-l, .es-m-txt-l h1, .es-m-txt-l h2, .es-m-txt-l h3 { text-align:left!important } .es-m-txt-r img, .es-m-txt-c img, .es-m-txt-l img { display:inline!important } .es-button-border { display:block!important } a.es-button { font-size:14px!important; display:block!important; border-left-width:0px!important; border-right-width:0px!important } .es-btn-fw { border-width:10px 0px!important; text-align:center!important } .es-adaptive table, .es-btn-fw, .es-btn-fw-brdr, .es-left, .es-right { width:100%!important } .es-content table, .es-header table, .es-footer table, .es-content, .es-footer, .es-header { width:100%!important; max-width:600px!important } .es-adapt-td { display:block!important; width:100%!important } .adapt-img { width:100%!important; height:auto!important } .es-m-p0 { padding:0px!important } .es-m-p0r 
-{ padding-right:0px!important } .es-m-p0l { padding-left:0px!important } .es-m-p0t { padding-top:0px!important } .es-m-p0b { padding-bottom:0!important } .es-m-p20b { padding-bottom:20px!important } .es-mobile-hidden, .es-hidden { display:none!important } .es-desk-hidden { display:table-row!important; width:auto!important; overflow:visible!important; float:none!important; max-height:inherit!important; line-height:inherit!important } .es-desk-menu-hidden { display:table-cell!important } table.es-table-not-adapt, .esd-block-html table { width:auto!important } table.es-social { display:inline-block!important } table.es-social td { display:inline-block!important } }#outlook a {	padding:0;}.ExternalClass {	width:100%;}.ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div {	line-height:100%;}.es-button 
-{	mso-style-priority:100!important;	text-decoration:none!important;}a[x-apple-data-detectors] {	color:inherit!important;	text-decoration:none!important;	font-size:inherit!important;	font-family:inherit!important;	font-weight:inherit!important;	line-height:inherit!important;}.es-desk-hidden {	display:none;	float:left;	overflow:hidden;	width:0;	max-height:0;	line-height:0;	mso-hide:all;}</style></head><body style="width:100%;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0;"><div class="es-wrapper-color" style="background-color:#F6F6F6;"> <!--[if gte mso 9]><v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t"> <v:fill type="tile" color="#f6f6f6"></v:fill> </v:background><![endif]-->
-<table class="es-wrapper" width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;padding:0;Margin:0;width:100%;height:100%;background-repeat:repeat;background-position:center top;"><tr style="border-collapse:collapse;"><td valign="top" style="padding:0;Margin:0;"><table cellpadding="0" cellspacing="0" class="es-content" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%;"><tr style="border-collapse:collapse;"><td class="es-info-area" align="center" bgcolor="#EFF3F5" style="padding:0;Margin:0;background-color:#EFF3F5;"><table bgcolor="#EFF3F5" class="es-content-body" align="center" cellpadding="0" cellspacing="0" width="600" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#EFF3F5;">
-<tr style="border-collapse:collapse;"><td align="left" style="Margin:0;padding-top:10px;padding-bottom:10px;padding-left:20px;padding-right:20px;"><table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"><tr style="border-collapse:collapse;"><td width="560" align="center" valign="top" style="padding:0;Margin:0;"><table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"><tr style="border-collapse:collapse;"><td class="es-infoblock" align="center" bgcolor="transparent" style="padding:0;Margin:0;line-height:14px;font-size:12px;color:#CCCCCC;"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:12px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:14px;color:#698391;">
-New features are on their way. Here's the sneakiest of previews! 🤫</p></td></tr></table></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" class="es-content" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%;"><tr style="border-collapse:collapse;"><td align="center" bgcolor="#EFF3F5" style="padding:0;Margin:0;background-color:#EFF3F5;"><table bgcolor="#ffffff" class="es-content-body" align="center" cellpadding="0" cellspacing="0" width="600" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#FFFFFF;"><tr style="border-collapse:collapse;"><td align="left" style="padding:0;Margin:0;padding-left:20px;"> <!--[if mso]><table width="580" cellpadding="0" cellspacing="0"><tr><td width="192" valign="top"><![endif]-->
-<table cellpadding="0" cellspacing="0" class="es-left" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left;"><tr style="border-collapse:collapse;"><td width="192" class="es-m-p0r es-m-p20b" valign="top" align="center" style="padding:0;Margin:0;"><table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"><tr style="border-collapse:collapse;"><td align="left" style="padding:0;Margin:0;padding-top:30px;"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:21px;color:#040404;"><strong>Prisma 2: Coming Soon!</strong></p>
-<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:21px;color:#040404;"><br></p><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:12px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:18px;color:#040404;">We are planning major product improvements with the upcoming release of Prisma 2. <i>Running Prisma without a server</i>, an <i>improved datamodel</i> and a <i>more powerful client API</i> are only a few of the features we have in store.</p></td></tr><tr style="border-collapse:collapse;"><td align="left" class="es-m-txt-c" style="padding:0;Margin:0;padding-top:10px;padding-right:40px;"> <!--[if mso]><a href="" target="_blank">
- <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" stripoVmlButton href="" style="height:40px;v-text-anchor:middle;width:152px;" arcsize="13%" stroke="f" fillcolor="rgb(56, 194, 241)"> <w:anchorlock></w:anchorlock> <center style='color:rgb(255, 255, 255);font-family:helvetica, "helvetica neue", arial, verdana, sans-serif;font-size:13px;font-weight:400;'>Read the blog post</center> </v:roundrect></a><![endif]--> <!--[if !mso]><!-- --><span class="es-button-border msohide" style="border-style:solid;border-color:#38C2F1;background:#38C2F1;border-width:0px;display:block;border-radius:5px;width:auto;mso-hide:all;">
-<a href="" class="es-button msohide" target="_blank" style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;font-size:13px;color:#FFFFFF;border-style:solid;border-color:#38C2F1;border-width:5px 0px;display:block;background:#38C2F1;border-radius:5px;font-weight:normal;font-style:normal;line-height:16px;width:auto;text-align:center;mso-hide:all;">Read the blog post</a></span> <!--<![endif]--></td></tr></table></td></tr></table> <!--[if mso]></td><td width="20"></td><td width="368" valign="top"><![endif]--><table cellpadding="0" cellspacing="0" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"><tr style="border-collapse:collapse;"><td width="368" align="left" style="padding:0;Margin:0;">
-<table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"><tr style="border-collapse:collapse;"><td align="center" style="padding:0;Margin:0;"><img class="adapt-img" src="https://i.imgur.com/SvCk20R.png" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="368" height="368"></td></tr></table></td></tr></table> <!--[if mso]></td></tr></table><![endif]--></td></tr><tr style="border-collapse:collapse;"><td align="left" bgcolor="#F7FBFC" style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px;background-color:#F7FBFC;"> <!--[if mso]><table width="560" cellpadding="0" cellspacing="0"><tr><td width="50" valign="top"><![endif]-->
-<table cellpadding="0" cellspacing="0" class="es-left" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left;"><tr style="border-collapse:collapse;"><td width="50" class="es-m-p0r es-m-p20b" valign="top" align="center" style="padding:0;Margin:0;"><table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"><tr class="es-mobile-hidden" style="border-collapse:collapse;"><td align="center" style="padding:0;Margin:0;"><img class="adapt-img" src="https://prisletter.netlify.com/assets/icons/target.png" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="18" height="18"></td></tr></table></td></tr></table> <!--[if mso]></td><td width="20"></td><td width="490" valign="top"><![endif]-->
-<table cellpadding="0" cellspacing="0" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"><tr style="border-collapse:collapse;"><td width="490" align="left" style="padding:0;Margin:0;"><table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"><tr style="border-collapse:collapse;"><td align="left" style="padding:0;Margin:0;"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:14px;color:#040404;"><strong>New in Prisma</strong></p><ul>
-<li style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:12px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:12px;Margin-bottom:15px;color:#040404;">What's next for Prisma? Check out the full Roadmap</li><li style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:12px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:12px;Margin-bottom:15px;color:#040404;">New bug fixes are live for Prisma v1.32 and Prisma v1.33</li><li style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:12px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:12px;Margin-bottom:15px;color:#040404;">Share your thoughts on the new Typescript Client RFC</li></ul></td></tr></table></td></tr></table> <!--[if mso]></td></tr>
-</table><![endif]--></td></tr><tr style="border-collapse:collapse;"><td align="left" bgcolor="#F7FBFC" style="Margin:0;padding-bottom:5px;padding-top:20px;padding-left:20px;padding-right:20px;background-color:#F7FBFC;"> <!--[if mso]><table width="560" cellpadding="0" cellspacing="0"><tr><td width="50" valign="top"><![endif]--><table cellpadding="0" cellspacing="0" class="es-left" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left;"><tr style="border-collapse:collapse;"><td width="50" class="es-m-p0r es-m-p20b" valign="top" align="center" style="padding:0;Margin:0;"><table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"><tr class="es-mobile-hidden" style="border-collapse:collapse;"><td align="center" style="padding:0;Margin:0;">
-<img class="adapt-img" src="https://prisletter.netlify.com/assets/icons/book.png" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="18" height="16"></td></tr></table></td></tr></table> <!--[if mso]></td><td width="20"></td><td width="490" valign="top"><![endif]--><table cellpadding="0" cellspacing="0" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"><tr style="border-collapse:collapse;"><td width="490" align="left" style="padding:0;Margin:0;"><table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"><tr style="border-collapse:collapse;"><td align="left" style="padding:0;Margin:0;">
-<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:14px;color:#040404;"><strong>Prisma Day Schedule is Live! </strong></p><ul><li style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:12px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:12px;Margin-bottom:15px;color:#040404;">Talks by the CEOs of Zeit, CodeSandbox, Fauna, CockroachDB!<br></li><li style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:12px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:12px;Margin-bottom:15px;color:#040404;">15 talks from experts in the database and development space</li>
-<li style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:12px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:12px;Margin-bottom:15px;color:#040404;">Opportunity tickets are currently available!</li><li style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:12px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:12px;Margin-bottom:15px;color:#040404;">Community BBQ after the event at the new Prisma office 🙀</li></ul></td></tr><tr style="border-collapse:collapse;"><td align="left" style="Margin:0;padding-top:5px;padding-bottom:5px;padding-right:10px;padding-left:30px;"> <!--[if mso]><a href="" target="_blank">
- <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" stripoVmlButton href="" style="height:39px;v-text-anchor:middle;width:140px;" arcsize="13%" stroke="f" fillcolor="rgb(12, 52, 75)"> <w:anchorlock></w:anchorlock> <center style='color:rgb(255, 255, 255);font-family:helvetica, "helvetica neue", arial, verdana, sans-serif;font-size:12px;font-weight:400;'>Explore the Schedule</center> </v:roundrect></a><![endif]--> <!--[if !mso]><!-- --><span class="msohide es-button-border" style="border-style:solid;border-color:#38C2F1;background:#0C344B;border-width:0px;display:inline-block;border-radius:5px;width:auto;mso-hide:all;">
-<a href="" class="es-button" target="_blank" style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;font-size:12px;color:#FFFFFF;border-style:solid;border-color:#0C344B;border-width:10px 15px 10px 10px;display:inline-block;background:#0C344B;border-radius:5px;font-weight:normal;font-style:normal;line-height:14px;width:auto;text-align:center;">Explore the Schedule</a></span> <!--<![endif]--></td></tr></table></td></tr></table> <!--[if mso]></td></tr></table><![endif]--></td></tr><tr style="border-collapse:collapse;"><td align="left" style="Margin:0;padding-top:20px;padding-bottom:20px;padding-left:20px;padding-right:20px;"> <!--[if mso]><table width="560" cellpadding="0" cellspacing="0"><tr><td width="270" valign="top"><![endif]-->
-<table cellpadding="0" cellspacing="0" class="es-left" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left;"><tr style="border-collapse:collapse;"><td width="270" class="es-m-p20b" align="left" style="padding:0;Margin:0;"><table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"><tr style="border-collapse:collapse;"><td align="center" style="padding:0;Margin:0;"><img class="adapt-img" src="https://i.imgur.com/pWOuhGu.png" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="270" height="270"></td></tr></table></td></tr></table> <!--[if mso]></td><td width="20"></td><td width="270" valign="top"><![endif]-->
-<table cellpadding="0" cellspacing="0" class="es-right" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right;"><tr style="border-collapse:collapse;"><td width="270" align="left" style="padding:0;Margin:0;"><table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"><tr style="border-collapse:collapse;"><td align="left" style="padding:0;Margin:0;"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:21px;color:#040404;"><strong>Nexus: Code-first GraphQL<br></strong><br><span style="font-size:12px;">Code-first vs SDL-first is currently a big conversation in the GraphQL community. </span><br></p>
-<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:21px;color:#040404;"><span style="font-size:12px;"></span><br></p><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:21px;color:#040404;"><span style="font-size:12px;">This Prisma series catches you up on the discussion and features some code-first tooling to explore!</span></p><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:21px;color:#040404;"></p>
-<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:21px;color:#040404;"></p></td></tr><tr style="border-collapse:collapse;"><td align="left" style="padding:0;Margin:0;"> <!--[if mso]><a href="" target="_blank"> <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" stripoVmlButton href="" style="height:39px;v-text-anchor:middle;width:110px;" arcsize="13%" stroke="f" fillcolor="rgb(56, 194, 241)"> <w:anchorlock></w:anchorlock> <center style='color:rgb(255, 255, 255);font-family:helvetica, "helvetica neue", arial, verdana, sans-serif;font-size:12px;font-weight:400;'>Read more</center> </v:roundrect></a><![endif]--> <!--[if !mso]><!-- -->
-<span class="msohide es-button-border" style="border-style:solid;border-color:#008FE3;background:#38C2F1;border-width:0px;display:inline-block;border-radius:5px;width:auto;mso-hide:all;"><a href="" class="es-button" target="_blank" style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;font-size:12px;color:#FFFFFF;border-style:solid;border-color:#38C2F1;border-width:10px 25px;display:inline-block;background:#38C2F1;border-radius:5px;font-weight:normal;font-style:normal;line-height:14px;width:auto;text-align:center;">Read more</a></span> <!--<![endif]--></td></tr></table></td></tr></table> <!--[if mso]></td></tr></table><![endif]--></td></tr></table></td></tr></table>
-<table cellpadding="0" cellspacing="0" class="es-content" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%;"><tr style="border-collapse:collapse;"><td align="center" style="padding:0;Margin:0;"><table class="es-content-body" width="600" cellspacing="0" cellpadding="0" bgcolor="transparent" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;"><tr style="border-collapse:collapse;"><td align="left" style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px;"><table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"><tr style="border-collapse:collapse;"><td width="560" align="center" valign="top" style="padding:0;Margin:0;">
-<table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"><tr style="border-collapse:collapse;"><td class="es-m-txt-c" align="center" style="padding:0;Margin:0;"><table class="es-table-not-adapt es-social" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"><tr style="border-collapse:collapse;"><td valign="top" align="center" style="padding:0;Margin:0;padding-right:40px;"><img title="Facebook" src="https://eooicv.stripocdn.email/content/assets/img/social-icons/logo-black/facebook-logo-black.png" alt="Fb" width="32" height="32" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;"></td><td valign="top" align="center" style="padding:0;Margin:0;padding-right:40px;">
-<img title="Twitter" src="https://eooicv.stripocdn.email/content/assets/img/social-icons/logo-black/twitter-logo-black.png" alt="Tw" width="32" height="32" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;"></td><td valign="top" align="center" style="padding:0;Margin:0;padding-right:40px;"><img title="Youtube" src="https://eooicv.stripocdn.email/content/assets/img/social-icons/logo-black/youtube-logo-black.png" alt="Yt" width="32" height="32" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;"></td><td valign="top" align="center" style="padding:0;Margin:0;"><img title="GitHub" src="https://eooicv.stripocdn.email/content/assets/img/other-icons/logo-black/github-logo-black.png" alt="GitHub" width="32" height="32" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;"></td></tr></table></td></tr></table>
-</td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" class="es-content" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%;"><tr style="border-collapse:collapse;"><td align="center" style="padding:0;Margin:0;"><table bgcolor="transparent" class="es-content-body" align="center" cellpadding="0" cellspacing="0" width="600" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;"><tr style="border-collapse:collapse;"><td align="left" style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px;"><table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"><tr style="border-collapse:collapse;">
-<td width="560" align="center" valign="top" style="padding:0;Margin:0;"><table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"><tr style="border-collapse:collapse;"><td align="center" style="padding:0;Margin:0;"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:28px;color:#698391;">If you were forwarded this newsletter and you like it, you can <a target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;font-size:14px;text-decoration:underline;color:#698391;" href="https://reallygoodemails.com/emails/may-product-and-community-sneak-peek/live/#">subscribe here</a>.</p>
-<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:28px;color:#698391;">If you don't want these updates anymore, you can <a target="_blank" href="https://reallygoodemails.com/emails/may-product-and-community-sneak-peek/live/#" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;font-size:14px;text-decoration:underline;color:#698391;">unsubscribe here</a>.</p></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></div></body>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+\t<meta http-equiv="content-type" content="text/html; charset=utf-8">
+  \t<meta name="viewport" content="width=device-width, initial-scale=1.0;">
+ \t<meta name="format-detection" content="telephone=no"/>
+
+\t<!-- Responsive Mobile-First Email Template by Konstantin Savchenko, 2015.
+\thttps://github.com/konsav/email-templates/  -->
+
+\t<style>
+/* Reset styles */ 
+body { margin: 0; padding: 0; min-width: 100%; width: 100% !important; height: 100% !important;}
+body, table, td, div, p, a { -webkit-font-smoothing: antialiased; text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; line-height: 100%; }
+table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important; border-spacing: 0; }
+img { border: 0; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+#outlook a { padding: 0; }
+.ReadMsgBody { width: 100%; } .ExternalClass { width: 100%; }
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
+
+/* Rounded corners for advanced mail clients only */ 
+@media all and (min-width: 560px) {
+\t.container { border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; -khtml-border-radius: 8px;}
+}
+
+/* Set color for auto links (addresses, dates, etc.) */ 
+a, a:hover {
+\tcolor: #127DB3;
+}
+.footer a, .footer a:hover {
+\tcolor: #999999;
+}
+
+ \t</style>
+
+\t<!-- MESSAGE SUBJECT -->
+\t<title>Get this responsive email template</title>
+
+</head>
+
+<!-- BODY -->
+<!-- Set message background color (twice) and text color (twice) -->
+<body topmargin="0" rightmargin="0" bottommargin="0" leftmargin="0" marginwidth="0" marginheight="0" width="100%" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; width: 100%; height: 100%; -webkit-font-smoothing: antialiased; text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; line-height: 100%;
+\tbackground-color: #F0F0F0;
+\tcolor: #000000;"
+\tbgcolor="#F0F0F0"
+\ttext="#000000">
+
+<!-- SECTION / BACKGROUND -->
+<!-- Set message background color one again -->
+<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; width: 100%;" class="background"><tr><td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0;"
+\tbgcolor="#F0F0F0">
+
+<!-- WRAPPER -->
+<!-- Set wrapper width (twice) -->
+<table border="0" cellpadding="0" cellspacing="0" align="center"
+\twidth="560" style="border-collapse: collapse; border-spacing: 0; padding: 0; width: inherit;
+\tmax-width: 560px;" class="wrapper">
+
+\t<tr>
+\t\t<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%;
+\t\t\tpadding-top: 20px;
+\t\t\tpadding-bottom: 20px;">
+
+\t\t\t<!-- PREHEADER -->
+\t\t\t<!-- Set text color to background color -->
+\t\t\t<div style="display: none; visibility: hidden; overflow: hidden; opacity: 0; font-size: 1px; line-height: 1px; height: 0; max-height: 0; max-width: 0;
+\t\t\tcolor: #F0F0F0;" class="preheader">
+\t\t\t\tAvailable on&nbsp;GitHub and&nbsp;CodePen. Highly compatible. Designer friendly. More than 50%&nbsp;of&nbsp;total email opens occurred on&nbsp;a&nbsp;mobile device&nbsp;— a&nbsp;mobile-friendly design is&nbsp;a&nbsp;must for&nbsp;email campaigns.</div>
+
+\t\t\t<!-- LOGO -->
+\t\t\t<!-- Image text color should be opposite to background color. Set your url, image src, alt and title. Alt text should fit the image size. Real image size should be x2. URL format: http://domain.com/?utm_source={{Campaign-Source}}&utm_medium=email&utm_content=logo&utm_campaign={{Campaign-Name}} -->
+\t\t\t<a target="_blank" style="text-decoration: none;"
+\t\t\t\thref="https://github.com/konsav/email-templates/"><img border="0" vspace="0" hspace="0"
+\t\t\t\tsrc="https://raw.githubusercontent.com/konsav/email-templates/master/images/logo-black.png"
+\t\t\t\twidth="100" height="30"
+\t\t\t\talt="Logo" title="Logo" style="
+\t\t\t\tcolor: #000000;
+\t\t\t\tfont-size: 10px; margin: 0; padding: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block;" /></a>
+
+\t\t</td>
+\t</tr>
+
+<!-- End of WRAPPER -->
+</table>
+
+<!-- WRAPPER / CONTEINER -->
+<!-- Set conteiner background color -->
+<table border="0" cellpadding="0" cellspacing="0" align="center"
+\tbgcolor="#FFFFFF"
+\twidth="560" style="border-collapse: collapse; border-spacing: 0; padding: 0; width: inherit;
+\tmax-width: 560px;" class="container">
+
+\t<!-- HEADER -->
+\t<!-- Set text color and font family ("sans-serif" or "Georgia, serif") -->
+\t<tr>
+\t\t<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 24px; font-weight: bold; line-height: 130%;
+\t\t\tpadding-top: 25px;
+\t\t\tcolor: #000000;
+\t\t\tfont-family: sans-serif;" class="header">
+\t\t\t\tGet this responsive email template
+\t\t</td>
+\t</tr>
+\t
+\t<!-- SUBHEADER -->
+\t<!-- Set text color and font family ("sans-serif" or "Georgia, serif") -->
+\t<tr>
+\t\t<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-bottom: 3px; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 18px; font-weight: 300; line-height: 150%;
+\t\t\tpadding-top: 5px;
+\t\t\tcolor: #000000;
+\t\t\tfont-family: sans-serif;" class="subheader">
+\t\t\t\tAvailable on&nbsp;GitHub and&nbsp;CodePen
+\t\t</td>
+\t</tr>
+
+\t<!-- HERO IMAGE -->
+\t<!-- Image text color should be opposite to background color. Set your url, image src, alt and title. Alt text should fit the image size. Real image size should be x2 (wrapper x2). Do not set height for flexible images (including "auto"). URL format: http://domain.com/?utm_source={{Campaign-Source}}&utm_medium=email&utm_content={{Ìmage-Name}}&utm_campaign={{Campaign-Name}} -->
+\t<tr>
+\t\t<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0;
+\t\t\tpadding-top: 20px;" class="hero"><a target="_blank" style="text-decoration: none;"
+\t\t\thref="https://github.com/konsav/email-templates/"><img border="0" vspace="0" hspace="0"
+\t\t\tsrc="http://localhost:3000/images/email-image.jpg"
+\t\t\talt="Please enable images to view this content" title="Hero Image"
+\t\t\twidth="560" style="
+\t\t\twidth: 100%;
+\t\t\tmax-width: 560px;
+\t\t\tcolor: #000000; font-size: 13px; margin: 0; padding: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block;"/></a></td>
+\t</tr>
+
+\t<!-- PARAGRAPH -->
+\t<!-- Set text color and font family ("sans-serif" or "Georgia, serif"). Duplicate all text styles in links, including line-height -->
+\t<tr>
+\t\t<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 17px; font-weight: 400; line-height: 160%;
+\t\t\tpadding-top: 25px; 
+\t\t\tcolor: #000000;
+\t\t\tfont-family: sans-serif;" class="paragraph">
+\t\t\t\tMore than 50%&nbsp;of&nbsp;total email opens occurred on&nbsp;a&nbsp;mobile device&nbsp;— a&nbsp;mobile-friendly design is&nbsp;a&nbsp;must for&nbsp;email campaigns.
+\t\t</td>
+\t</tr>
+
+\t<!-- BUTTON -->
+\t<!-- Set button background color at TD, link/text color at A and TD, font family ("sans-serif" or "Georgia, serif") at TD. For verification codes add "letter-spacing: 5px;". Link format: http://domain.com/?utm_source={{Campaign-Source}}&utm_medium=email&utm_content={{Button-Name}}&utm_campaign={{Campaign-Name}} -->
+
+\t<!-- LINE -->
+\t<!-- Set line color -->
+\t
+\t<!-- LINE -->
+\t<!-- Set line color -->
+\t<tr>
+\t\t<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%;
+\t\t\tpadding-top: 25px;" class="line"><hr
+\t\t\tcolor="#E0E0E0" align="center" width="100%" size="1" noshade style="margin: 0; padding: 0;" />
+\t\t</td>
+\t</tr>
+
+\t<!-- PARAGRAPH -->
+\t<!-- Set text color and font family ("sans-serif" or "Georgia, serif"). Duplicate all text styles in links, including line-height -->
+\t<tr>
+\t\t<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 17px; font-weight: 400; line-height: 160%;
+\t\t\tpadding-top: 20px;
+\t\t\tpadding-bottom: 25px;
+\t\t\tcolor: #000000;
+\t\t\tfont-family: sans-serif;" class="paragraph">
+\t\t\t\tHave a&nbsp;question? <a href="mailto:support@ourteam.com" target="_blank" style="color: #127DB3; font-family: sans-serif; font-size: 17px; font-weight: 400; line-height: 160%;">support@ourteam.com</a>
+\t\t</td>
+\t</tr>
+
+<!-- End of WRAPPER -->
+</table>
+
+<!-- WRAPPER -->
+<!-- Set wrapper width (twice) -->
+<table border="0" cellpadding="0" cellspacing="0" align="center"
+\twidth="560" style="border-collapse: collapse; border-spacing: 0; padding: 0; width: inherit;
+\tmax-width: 560px;" class="wrapper">
+
+\t<!-- SOCIAL NETWORKS -->
+\t<!-- Image text color should be opposite to background color. Set your url, image src, alt and title. Alt text should fit the image size. Real image size should be x2 -->
+\t<tr>
+\t\t<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%;
+\t\t\tpadding-top: 25px;" class="social-icons"><table
+\t\t\twidth="256" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse; border-spacing: 0; padding: 0;">
+\t\t\t<tr>
+
+\t\t\t\t<!-- ICON 1 -->
+\t\t\t\t<td align="center" valign="middle" style="margin: 0; padding: 0; padding-left: 10px; padding-right: 10px; border-collapse: collapse; border-spacing: 0;"><a target="_blank"
+\t\t\t\t\thref="https://raw.githubusercontent.com/konsav/email-templates/"
+\t\t\t\tstyle="text-decoration: none;"><img border="0" vspace="0" hspace="0" style="padding: 0; margin: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: inline-block;
+\t\t\t\t\tcolor: #000000;"
+\t\t\t\t\talt="F" title="Facebook"
+\t\t\t\t\twidth="44" height="44"
+\t\t\t\t\tsrc="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/facebook.png"></a></td>
+
+\t\t\t\t<!-- ICON 2 -->
+\t\t\t\t<td align="center" valign="middle" style="margin: 0; padding: 0; padding-left: 10px; padding-right: 10px; border-collapse: collapse; border-spacing: 0;"><a target="_blank"
+\t\t\t\t\thref="https://raw.githubusercontent.com/konsav/email-templates/"
+\t\t\t\tstyle="text-decoration: none;"><img border="0" vspace="0" hspace="0" style="padding: 0; margin: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: inline-block;
+\t\t\t\t\tcolor: #000000;"
+\t\t\t\t\talt="T" title="Twitter"
+\t\t\t\t\twidth="44" height="44"
+\t\t\t\t\tsrc="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/twitter.png"></a></td>\t\t\t\t
+
+\t\t\t\t<!-- ICON 3 -->
+\t\t\t\t<td align="center" valign="middle" style="margin: 0; padding: 0; padding-left: 10px; padding-right: 10px; border-collapse: collapse; border-spacing: 0;"><a target="_blank"
+\t\t\t\t\thref="https://raw.githubusercontent.com/konsav/email-templates/"
+\t\t\t\tstyle="text-decoration: none;"><img border="0" vspace="0" hspace="0" style="padding: 0; margin: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: inline-block;
+\t\t\t\t\tcolor: #000000;"
+\t\t\t\t\talt="G" title="Google Plus"
+\t\t\t\t\twidth="44" height="44"
+\t\t\t\t\tsrc="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/googleplus.png"></a></td>\t\t
+
+\t\t\t\t<!-- ICON 4 -->
+\t\t\t\t<td align="center" valign="middle" style="margin: 0; padding: 0; padding-left: 10px; padding-right: 10px; border-collapse: collapse; border-spacing: 0;"><a target="_blank"
+\t\t\t\t\thref="https://raw.githubusercontent.com/konsav/email-templates/"
+\t\t\t\tstyle="text-decoration: none;"><img border="0" vspace="0" hspace="0" style="padding: 0; margin: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: inline-block;
+\t\t\t\t\tcolor: #000000;"
+\t\t\t\t\talt="I" title="Instagram"
+\t\t\t\t\twidth="44" height="44"
+\t\t\t\t\tsrc="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/instagram.png"></a></td>
+
+\t\t\t</tr>
+\t\t\t</table>
+\t\t</td>
+\t</tr>
+
+\t<!-- FOOTER -->
+\t<!-- Set text color and font family ("sans-serif" or "Georgia, serif"). Duplicate all text styles in links, including line-height -->
+\t<tr>
+\t\t<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 13px; font-weight: 400; line-height: 150%;
+\t\t\tpadding-top: 20px;
+\t\t\tpadding-bottom: 20px;
+\t\t\tcolor: #999999;
+\t\t\tfont-family: sans-serif;" class="footer">
+
+\t\t\t\tThis email template was sent to&nbsp;you becouse we&nbsp;want to&nbsp;make the&nbsp;world a&nbsp;better place. You&nbsp;could change your <a href="https://github.com/konsav/email-templates/" target="_blank" style="text-decoration: underline; color: #999999; font-family: sans-serif; font-size: 13px; font-weight: 400; line-height: 150%;">subscription settings</a> anytime.
+
+\t\t\t\t<!-- ANALYTICS -->
+\t\t\t\t<!-- https://www.google-analytics.com/collect?v=1&tid={{UA-Tracking-ID}}&cid={{Client-ID}}&t=event&ec=email&ea=open&cs={{Campaign-Source}}&cm=email&cn={{Campaign-Name}} -->
+\t\t\t\t<img width="1" height="1" border="0" vspace="0" hspace="0" style="margin: 0; padding: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block;"
+\t\t\t\tsrc="https://raw.githubusercontent.com/konsav/email-templates/master/images/tracker.png" />
+
+\t\t</td>
+\t</tr>
+
+<!-- End of WRAPPER -->
+</table>
+
+<!-- End of SECTION / BACKGROUND -->
+</td></tr></table>
+
+</body>
 </html>
 `
 

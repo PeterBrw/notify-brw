@@ -81,7 +81,3 @@ exports.sendMail = (req, res, next) => {
       })
 
 }
-
-exports.unattempt = (req, res, next) => {
-  id
-}
