@@ -119,7 +119,7 @@ a, a:hover {
 \t\t<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0;
 \t\t\tpadding-top: 20px;" class="hero"><a target="_blank" style="text-decoration: none;"
 \t\t\thref="https://github.com/konsav/email-templates/"><img border="0" vspace="0" hspace="0"
-\t\t\tsrc="http://localhost:3000/images/email-image.jpg"
+\t\t\tsrc="http://www.brwinc.xyz/images/email-image.jpg"
 \t\t\talt="Please enable images to view this content" title="Hero Image"
 \t\t\twidth="560" style="
 \t\t\twidth: 100%;
