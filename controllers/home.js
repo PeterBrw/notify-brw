@@ -29,7 +29,7 @@ exports.sendMail = (req, res, next) => {
         from: 'contact@brwinc.xyz', 
         subject: 'Sending with SendGrid is Fun',
         text: 'and easy to do anywhere, even with Node.js',
-        html: getEmailTemplate(),
+        html: getEmailTemplate(name),
       }
       
       sgMail

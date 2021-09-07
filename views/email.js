@@ -1,4 +1,4 @@
-const getEmailTemplate = () => `
+const getEmailTemplate = (name) => `
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 \t<meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -62,22 +62,6 @@ a, a:hover {
 \t\t\tpadding-top: 20px;
 \t\t\tpadding-bottom: 20px;">
 
-\t\t\t<!-- PREHEADER -->
-\t\t\t<!-- Set text color to background color -->
-\t\t\t<div style="display: none; visibility: hidden; overflow: hidden; opacity: 0; font-size: 1px; line-height: 1px; height: 0; max-height: 0; max-width: 0;
-\t\t\tcolor: #F0F0F0;" class="preheader">
-\t\t\t\tAvailable on&nbsp;GitHub and&nbsp;CodePen. Highly compatible. Designer friendly. More than 50%&nbsp;of&nbsp;total email opens occurred on&nbsp;a&nbsp;mobile device&nbsp;— a&nbsp;mobile-friendly design is&nbsp;a&nbsp;must for&nbsp;email campaigns.</div>
-
-\t\t\t<!-- LOGO -->
-\t\t\t<!-- Image text color should be opposite to background color. Set your url, image src, alt and title. Alt text should fit the image size. Real image size should be x2. URL format: http://domain.com/?utm_source={{Campaign-Source}}&utm_medium=email&utm_content=logo&utm_campaign={{Campaign-Name}} -->
-\t\t\t<a target="_blank" style="text-decoration: none;"
-\t\t\t\thref="https://github.com/konsav/email-templates/"><img border="0" vspace="0" hspace="0"
-\t\t\t\tsrc="https://raw.githubusercontent.com/konsav/email-templates/master/images/logo-black.png"
-\t\t\t\twidth="100" height="30"
-\t\t\t\talt="Logo" title="Logo" style="
-\t\t\t\tcolor: #000000;
-\t\t\t\tfont-size: 10px; margin: 0; padding: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block;" /></a>
-
 \t\t</td>
 \t</tr>
 
@@ -134,7 +118,7 @@ a, a:hover {
 \t\t\tpadding-top: 25px; 
 \t\t\tcolor: #000000;
 \t\t\tfont-family: sans-serif;" class="paragraph">
-\t\t\t\tMore than 50%&nbsp;of&nbsp;total email opens occurred on&nbsp;a&nbsp;mobile device&nbsp;— a&nbsp;mobile-friendly design is&nbsp;a&nbsp;must for&nbsp;email campaigns.
+\t\t\t\t Buna, ${name} te asteptam la evenimentul nostru!
 \t\t</td>
 \t</tr>
 
